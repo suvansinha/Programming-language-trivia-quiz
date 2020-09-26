@@ -1,3 +1,5 @@
+#This is a trivia quiz related to programming languages
+
 print("Hello , welcome to trivia!")               
 
 ans = input("Are you ready to begin (yes/no): ")
@@ -76,7 +78,7 @@ if ans == "yes":
         print("incorrect")    
         
 
-    print(" Thank you for playing, you got " , score, " questions correct.").lower()
+    print(" Thank you for playing, you got " , score, " questions correct.")
     mark = (score/total_q) * 100
 
     print("Mark:" , mark)
